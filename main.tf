@@ -7,7 +7,7 @@ provider "aws" {
 # ------ S3
 
 resource "random_id" "bgs_bucket" {
-  byte_length = 2
+  byte_length = 5
 }
 
 resource "aws_s3_bucket" "site" {
