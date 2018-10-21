@@ -1,4 +1,3 @@
-
 output "Cloudfront_address" {
   value = "${aws_cloudfront_distribution.bgs_cldfront.domain_name}"
 }

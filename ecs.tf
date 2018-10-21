@@ -39,8 +39,9 @@ resource "aws_ecs_service" "bgs_ecs" {
 
   network_configuration {
     security_groups = ["${aws_security_group.bgs_wan_sg.id}"]
-    subnets         = ["${aws_subnet.bgs_subpbc1}",
-    "${aws_subnet.bgs_subpb2.id}"
+
+    subnets = ["${aws_subnet.bgs_subpbc1.id}",
+      "${aws_subnet.bgs_subpbc2.id}",
     ]
   }
 

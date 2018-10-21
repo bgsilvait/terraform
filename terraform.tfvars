@@ -7,10 +7,9 @@ cidrs       = {
     subpvt1 = "10.0.60.0/24"
     subpvt2 = "10.0.80.0/24"
     }
-
 dom_name = "bgsilvait"
 app_count ="2"
 fargate_cpu= "256"
 fargate_memory ="512"
-app_image ="bgsilvait/nginx"
+app_image ="bgsilvait/nginx:latest"
 app_port ="80"
