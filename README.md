@@ -1,8 +1,8 @@
 # terraform
-TerraForm Scritps for AWS
 
-Ajustar as variavies globais:
+### Ajustar as variavies globais em Terraform.tfvars:
 
-Terraform.vars:
-asw_region
-aws_profile
+| Name | Description | Optional |
+|------|-------------|:---:|
+| asw_region| regiao a ser aplicado o codigo | n |
+| aws_profile| profile no aws cli para aplicar o codigo  | n |
