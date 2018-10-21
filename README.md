@@ -2,7 +2,8 @@
 
 ### Ajustar as variavies globais em Terraform.tfvars:
 
-| Name | Description | Optional |
+| parametro | Descrição | Opcional |
 |------|-------------|:---:|
-| asw_region| regiao a ser aplicado o codigo | n |
+| asw_region| região a ser aplicado o codigo | n |
 | aws_profile| profile no aws cli para aplicar o codigo  | n |
+| dom_name| Nome base Para Bucket  | s |
